@@ -118,4 +118,11 @@ export const projects: Project[] = [
     tags: ['CRM'],
     logo: iraqicinemaLogo
   },
+  {
+    name: 'Al Etihad',
+    description:
+      'Converted Figma designs into a fully interactive website. Role: frontend implementation only.',
+    url: 'https://www.aletihad.ae/',
+    tags: ['Frontend'],
+  },
 ]
