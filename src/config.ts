@@ -83,7 +83,7 @@ export const projects: Project[] = [
     name: 'Stock Store',
     description:
       'An inventory and stock management application. Built as fullstack developer with React, Node.js, and a MySQL database.',
-    url: null,
+    url: 'http://34.165.71.158/dashboard',
     tags: ['E-commerce', 'fullstack', 'reactjs', 'nodejs', 'mysql'],
   },
   {
