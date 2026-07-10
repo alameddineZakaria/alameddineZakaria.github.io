@@ -212,6 +212,30 @@ main {
   white-space: nowrap;
 }
 
+.hover-word {
+  display: inline-block;
+  transform-origin: center bottom;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.hover-word:hover {
+  transform: scale(1.25);
+  color: var(--accent);
+}
+
+.at .hover-word:hover {
+  color: var(--text-h);
+}
+
+@media (hover: none) {
+  .hover-word:hover {
+    transform: none;
+    color: inherit;
+  }
+}
+
 .timeline li p {
   margin-top: 6px;
   font-size: 14px;
