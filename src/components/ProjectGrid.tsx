@@ -9,8 +9,8 @@ export function ProjectGrid() {
         <p className="status-message">No projects to show yet.</p>
       ) : (
         <div className="project-grid">
-          {projects.map((project) => (
-            <ProjectCard key={project.name} project={project} />
+          {projects.map((project, index) => (
+            <ProjectCard key={project.name} project={project} index={index} />
           ))}
         </div>
       )}

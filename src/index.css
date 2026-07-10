@@ -118,21 +118,34 @@ a {
 
 .reveal {
   opacity: 0;
-  transform: translateY(16px);
+  translate: 0 16px;
   transition:
     opacity 0.6s ease,
-    transform 0.6s ease;
+    translate 0.6s ease;
 }
 
 .reveal.in-view {
   opacity: 1;
-  transform: translateY(0);
+  translate: 0 0;
+}
+
+.reveal-left {
+  translate: -56px 0;
+}
+
+.reveal-right {
+  translate: 56px 0;
+}
+
+.reveal-left.in-view,
+.reveal-right.in-view {
+  translate: 0 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
-    transform: none;
+    translate: 0 0;
     transition: none;
   }
 }

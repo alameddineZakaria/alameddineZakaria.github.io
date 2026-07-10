@@ -1,4 +1,4 @@
-import type { RefObject } from 'react'
+import type { CSSProperties, RefObject } from 'react'
 import type { Project } from '../config'
 import { useTilt } from '../hooks/useTilt'
 
@@ -11,8 +11,10 @@ function initials(name: string) {
     .toUpperCase()
 }
 
-export function ProjectCard({ project }: { project: Project }) {
+export function ProjectCard({ project, index }: { project: Project; index: number }) {
   const tilt = useTilt<HTMLAnchorElement | HTMLDivElement>()
+  const direction = index % 2 === 0 ? 'reveal-left' : 'reveal-right'
+  const revealStyle: CSSProperties = { transitionDelay: `${(index % 3) * 90}ms` }
 
   const content = (
     <>
@@ -45,7 +47,8 @@ export function ProjectCard({ project }: { project: Project }) {
   if (!project.url) {
     return (
       <div
-        className="project-card disabled"
+        className={`project-card disabled reveal ${direction}`}
+        style={revealStyle}
         ref={tilt.ref as RefObject<HTMLDivElement>}
         onMouseMove={tilt.onMouseMove}
         onMouseLeave={tilt.onMouseLeave}
@@ -57,7 +60,8 @@ export function ProjectCard({ project }: { project: Project }) {
 
   return (
     <a
-      className="project-card"
+      className={`project-card reveal ${direction}`}
+      style={revealStyle}
       href={project.url}
       target="_blank"
       rel="noreferrer"
