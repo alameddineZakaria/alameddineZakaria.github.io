@@ -213,6 +213,7 @@ main {
 }
 
 .hover-word {
+  position: relative;
   display: inline-block;
   transform-origin: center bottom;
   transition:
@@ -229,10 +230,45 @@ main {
   color: var(--text-h);
 }
 
+.hover-word::after {
+  content: '';
+  position: absolute;
+  inset: -8px -10px;
+  border: 1.5px solid var(--accent);
+  border-radius: 999px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hover-word:hover::after {
+  animation: word-ripple 0.7s ease-out;
+}
+
+@keyframes word-ripple {
+  0% {
+    opacity: 0.55;
+    scale: 0.6;
+  }
+  100% {
+    opacity: 0;
+    scale: 1.6;
+  }
+}
+
 @media (hover: none) {
   .hover-word:hover {
     transform: none;
     color: inherit;
+  }
+
+  .hover-word:hover::after {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hover-word:hover::after {
+    animation: none;
   }
 }
 
