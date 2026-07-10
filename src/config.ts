@@ -57,15 +57,8 @@ export const experience: ExperienceEntry[] = [
   },
   {
     role: 'Frontend Web Developer',
-    company: 'Vbout',
-    period: 'Aug 2021 – Mar 2022',
-    summary:
-      'Developed responsive interfaces and integrated APIs across a range of devices and browsers.',
-  },
-  {
-    role: 'Frontend Web Developer',
     company: 'Vianeos',
-    period: 'Jan 2021 – Aug 2021',
+    period: 'Jan 2021 – Mar 2022',
     summary: 'Improved cross-device accessibility and frontend performance.',
   },
   {
