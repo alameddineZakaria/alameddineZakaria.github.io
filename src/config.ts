@@ -3,6 +3,7 @@ import iraqicinemaLogo from './assets/projects/iraqi-logo-white.png'
 import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
 import awqafLogo from './assets/projects/awqaf-logo.svg'
 import gridsposLogo from './assets/projects/gridspos-logo.png'
+import webmmLogo from './assets/projects/webmm-logo.svg'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -139,5 +140,13 @@ export const projects: Project[] = [
     url: 'https://awqaf-qa.onrender.com/',
     tags: ['Frontend'],
     logo: awqafLogo,
+  },
+  {
+    name: 'Messaging Manager',
+    description:
+      'A messaging manager platform used by telecom operators — including Ooredoo, Vodafone, Zain KSA, and Zain Kuwait — to send bulk SMS campaigns in one click. Role: converted Figma designs into an interactive website with Angular 21 and PrimeNG, and integrated the backend API.',
+    url: 'https://zainksa.stg.dev1team.net/webmm2/login',
+    tags: ['Telecom'],
+    logo: webmmLogo,
   },
 ]
