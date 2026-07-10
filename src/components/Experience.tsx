@@ -1,5 +1,4 @@
 import { experience } from '../config'
-import { HoverText } from './HoverText'
 
 export function Experience() {
   return (
@@ -10,16 +9,11 @@ export function Experience() {
           <li key={`${entry.company}-${entry.period}`}>
             <div className="timeline-heading">
               <h3>
-                <HoverText text={entry.role} />{' '}
-                <span className="at">
-                  @ <HoverText text={entry.company} />
-                </span>
+                {entry.role} <span className="at">@ {entry.company}</span>
               </h3>
               <span className="period">{entry.period}</span>
             </div>
-            <p>
-              <HoverText text={entry.summary} />
-            </p>
+            <p>{entry.summary}</p>
           </li>
         ))}
       </ol>
