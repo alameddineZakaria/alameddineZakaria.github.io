@@ -1,4 +1,5 @@
 import alIhsanLogo from './assets/projects/al-ihsan-logo.png'
+import iraqicinemaLogo from './assets/projects/iraqi-logo-white.png'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -115,5 +116,6 @@ export const projects: Project[] = [
       'A CRM for managing cinemas across Iraq, built with PHP Laravel and MySQL.',
     url: 'https://staging.iraqicinema.net/',
     tags: ['CRM'],
+    logo: iraqicinemaLogo
   },
 ]
