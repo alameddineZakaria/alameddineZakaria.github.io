@@ -11,6 +11,9 @@ import {
   SiBootstrap,
   SiTailwindcss,
   SiUbuntu,
+  SiGithub,
+  SiGitlab,
+  SiBitbucket,
 } from 'react-icons/si'
 import { TbSql, TbDatabase, TbBrain, TbNetwork, TbVector, TbRobot } from 'react-icons/tb'
 
@@ -55,7 +58,12 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Cloud & DevOps',
-    items: [{ name: 'AWS (Ubuntu)', icon: SiUbuntu }],
+    items: [
+      { name: 'AWS (Ubuntu)', icon: SiUbuntu },
+      { name: 'GitHub', icon: SiGithub },
+      { name: 'GitLab', icon: SiGitlab },
+      { name: 'Bitbucket', icon: SiBitbucket },
+    ],
   },
   {
     category: 'AI',
