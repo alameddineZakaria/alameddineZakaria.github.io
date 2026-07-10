@@ -76,7 +76,7 @@ export const projects: Project[] = [
     description:
       'A platform for Al-Ihsan Foundation, a charitable organization. Built end-to-end as fullstack developer — Angular 21, Node.js 24, and a MySQL database — with a self-built CI/CD pipeline that auto-deploys to the AWS Ubuntu server via SSH on every push to production.',
     url: 'https://link.alihsan.org.au/',
-    tags: ['Nonprofit', 'CI/CD'],
+    tags: ['Nonprofit', 'CI/CD', 'fullstack', 'angular', 'nodejs', 'mysql'],
     logo: alIhsanLogo,
   },
   {
@@ -84,14 +84,14 @@ export const projects: Project[] = [
     description:
       'An inventory and stock management application. Built as fullstack developer with React, Node.js, and a MySQL database.',
     url: null,
-    tags: ['E-commerce'],
+    tags: ['E-commerce', 'fullstack', 'reactjs', 'nodejs', 'mysql'],
   },
   {
     name: 'GridsPOS',
     description:
       'A business management system built from scratch, combining CRM, point-of-sale, and ERP functionality — React frontend with a Node.js and SQL Server backend.',
     url: 'https://web.gridsweb.com:9006/login',
-    tags: ['Business Software'],
+    tags: ['Business Software', 'fullstack', 'reactjs', 'nodejs', 'sqlserver'],
     logo: gridsposLogo,
   },
   {
@@ -99,7 +99,7 @@ export const projects: Project[] = [
     description:
       'A CRM for managing cinemas across Iraq, built with PHP Laravel and MySQL, deployed to an AWS Ubuntu server with a self-built CI/CD pipeline that auto-deploys via SSH on every push to production.',
     url: 'https://staging.iraqicinema.net/',
-    tags: ['CRM', 'CI/CD'],
+    tags: ['CRM', 'CI/CD', 'php laravel','mysql'],
     logo: iraqicinemaLogo
   },
   {
@@ -115,7 +115,7 @@ export const projects: Project[] = [
     description:
       'A platform for Awqaf Rashaya. Role: frontend built with React and OpenAPI-generated clients; backend built by a separate team in Java with PostgreSQL.',
     url: 'https://awqaf-qa.onrender.com/',
-    tags: ['Frontend'],
+    tags: ['Frontend', 'reactjs', 'tailwind'],
     logo: awqafLogo,
   },
   {
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     description:
       'A multi-tenant messaging platform used by major telecom operators — including Ooredoo, Vodafone, Zain KSA, and Zain Kuwait — to launch bulk SMS campaigns in a single click. My role: converting the Figma designs into a fully interactive, data-heavy interface with Angular 21 and PrimeNG — covering everything from campaign setup to reporting dashboards — and integrating it end-to-end with the backend API.',
     url: 'https://zainksa.stg.dev1team.net/webmm2/login',
-    tags: ['Telecom'],
+    tags: ['frontend', 'angular'],
     logo: webmmLogo,
   },
 ]
