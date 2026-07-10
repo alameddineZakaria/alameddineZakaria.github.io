@@ -2,6 +2,7 @@ import alIhsanLogo from './assets/projects/al-ihsan-logo.png'
 import iraqicinemaLogo from './assets/projects/iraqi-logo-white.png'
 import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
 import awqafLogo from './assets/projects/awqaf-logo.svg'
+import gridsposLogo from './assets/projects/gridspos-logo.png'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -113,6 +114,7 @@ export const projects: Project[] = [
       'A business management system built from scratch, combining CRM, point-of-sale, and ERP functionality — React frontend with a Node.js and SQL Server backend.',
     url: 'https://web.gridsweb.com:9006/login',
     tags: ['Business Software'],
+    logo: gridsposLogo,
   },
   {
     name: 'Iraqi Cinema',
