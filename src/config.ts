@@ -9,7 +9,7 @@ export const siteConfig = {
   name: 'Zakaria Alameddine',
   role: 'Fullstack Developer',
   tagline: 'Building things, one project at a time.',
-  bio: "I'm a fullstack developer based in Tripoli, Lebanon, currently a Frontend Web Developer at PowerMeMobile. Since 2016 I've worked across companies like Sword Group, Vbout, and Vianeos, and I've run my own freelance practice since 2021 — building everything from responsive UIs to backend APIs and databases, with hands-on experience setting up AWS Ubuntu servers. I also have hands-on experience building ERP, POS, and stock management systems.",
+  bio: "I'm a fullstack developer based in Tripoli, Lebanon, currently a Frontend Web Developer at PowerMeMobile. Since 2016 I've worked across companies like Sword Group, Vbout, and Vianeos, and I've run my own freelance practice since 2021 — building everything from responsive UIs to backend APIs and databases, with hands-on experience setting up AWS Ubuntu servers. I also have hands-on experience building ERP, POS, and stock management systems. I'm currently learning AI development and have built several personal projects exploring RAG, LLMs, vector databases, and AI agents.",
   skills: [
     'React',
     'React Native',
@@ -144,7 +144,7 @@ export const projects: Project[] = [
   {
     name: 'Messaging Manager',
     description:
-      'A messaging manager platform used by telecom operators — including Ooredoo, Vodafone, Zain KSA, and Zain Kuwait — to send bulk SMS campaigns in one click. Role: converted Figma designs into an interactive website with Angular 21 and PrimeNG, and integrated the backend API.',
+      'A multi-tenant messaging platform used by major telecom operators — including Ooredoo, Vodafone, Zain KSA, and Zain Kuwait — to launch bulk SMS campaigns in a single click. My role: converting the Figma designs into a fully interactive, data-heavy interface with Angular 21 and PrimeNG — covering everything from campaign setup to reporting dashboards — and integrating it end-to-end with the backend API.',
     url: 'https://zainksa.stg.dev1team.net/webmm2/login',
     tags: ['Telecom'],
     logo: webmmLogo,
