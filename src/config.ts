@@ -128,4 +128,11 @@ export const projects: Project[] = [
     tags: ['Frontend'],
     logo: alEtihadLogo,
   },
+  {
+    name: 'Awqaf Rashaya',
+    description:
+      'A platform for Awqaf Rashaya. Role: frontend built with React and OpenAPI-generated clients; backend built by a separate team in Java with PostgreSQL.',
+    url: 'https://awqaf-qa.onrender.com/',
+    tags: ['Frontend'],
+  },
 ]
