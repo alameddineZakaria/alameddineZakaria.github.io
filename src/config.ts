@@ -1,5 +1,6 @@
 import alIhsanLogo from './assets/projects/al-ihsan-logo.png'
 import iraqicinemaLogo from './assets/projects/iraqi-logo-white.png'
+import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -124,5 +125,6 @@ export const projects: Project[] = [
       'Converted Figma designs into a fully interactive website. Role: frontend implementation only.',
     url: 'https://www.aletihad.ae/',
     tags: ['Frontend'],
+    logo: alEtihadLogo,
   },
 ]
