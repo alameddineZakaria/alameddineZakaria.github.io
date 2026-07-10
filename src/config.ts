@@ -95,7 +95,7 @@ export const projects: Project[] = [
   {
     name: 'Al-Ihsan Foundation',
     description:
-      'A platform for Al-Ihsan Foundation, a charitable organization. Built with Angular 21, Node.js 24, and a MySQL database.',
+      'A platform for Al-Ihsan Foundation, a charitable organization. Built end-to-end as fullstack developer — Angular 21, Node.js 24, and a MySQL database — including setting up and deploying to an AWS Ubuntu server.',
     url: 'https://link.alihsan.org.au/',
     tags: ['Nonprofit'],
     logo: alIhsanLogo,
@@ -117,7 +117,7 @@ export const projects: Project[] = [
   {
     name: 'Iraqi Cinema',
     description:
-      'A CRM for managing cinemas across Iraq, built with PHP Laravel and MySQL.',
+      'A CRM for managing cinemas across Iraq, built with PHP Laravel and MySQL, including setting up and deploying to an AWS Ubuntu server.',
     url: 'https://staging.iraqicinema.net/',
     tags: ['CRM'],
     logo: iraqicinemaLogo
