@@ -1,4 +1,6 @@
+import type { RefObject } from 'react'
 import type { Project } from '../config'
+import { useTilt } from '../hooks/useTilt'
 
 function initials(name: string) {
   return name
@@ -10,6 +12,8 @@ function initials(name: string) {
 }
 
 export function ProjectCard({ project }: { project: Project }) {
+  const tilt = useTilt<HTMLAnchorElement | HTMLDivElement>()
+
   const content = (
     <>
       <div className="project-card-media">
@@ -39,11 +43,28 @@ export function ProjectCard({ project }: { project: Project }) {
   )
 
   if (!project.url) {
-    return <div className="project-card disabled">{content}</div>
+    return (
+      <div
+        className="project-card disabled"
+        ref={tilt.ref as RefObject<HTMLDivElement>}
+        onMouseMove={tilt.onMouseMove}
+        onMouseLeave={tilt.onMouseLeave}
+      >
+        {content}
+      </div>
+    )
   }
 
   return (
-    <a className="project-card" href={project.url} target="_blank" rel="noreferrer">
+    <a
+      className="project-card"
+      href={project.url}
+      target="_blank"
+      rel="noreferrer"
+      ref={tilt.ref as RefObject<HTMLAnchorElement>}
+      onMouseMove={tilt.onMouseMove}
+      onMouseLeave={tilt.onMouseLeave}
+    >
       {content}
     </a>
   )

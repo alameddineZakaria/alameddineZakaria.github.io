@@ -1,0 +1,97 @@
+.bg-decor {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.bg-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.22;
+  will-change: transform;
+}
+
+.bg-blob-1 {
+  width: 480px;
+  height: 480px;
+  top: -140px;
+  left: -120px;
+  background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
+  animation: float-1 22s ease-in-out infinite alternate;
+}
+
+.bg-blob-2 {
+  width: 420px;
+  height: 420px;
+  top: 25%;
+  right: -160px;
+  background: radial-gradient(circle, var(--accent-2) 0%, transparent 70%);
+  animation: float-2 26s ease-in-out infinite alternate;
+}
+
+.bg-blob-3 {
+  width: 380px;
+  height: 380px;
+  bottom: -140px;
+  left: 15%;
+  background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
+  animation: float-3 30s ease-in-out infinite alternate;
+}
+
+@keyframes float-1 {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(70px, 90px) scale(1.15);
+  }
+}
+
+@keyframes float-2 {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(-80px, 60px) scale(1.1);
+  }
+}
+
+@keyframes float-3 {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(60px, -70px) scale(1.2);
+  }
+}
+
+.bg-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    500px circle at var(--mouse-x, 50%) var(--mouse-y, 20%),
+    var(--accent-bg),
+    transparent 60%
+  );
+  opacity: 0.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-blob {
+    animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .bg-blob {
+    opacity: 0.1;
+    width: 260px !important;
+    height: 260px !important;
+  }
+  .bg-glow {
+    display: none;
+  }
+}
