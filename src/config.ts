@@ -93,7 +93,8 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: 'Al-Ihsan Foundation',
-    description: 'A platform for Al-Ihsan Foundation, a charitable organization.',
+    description:
+      'A platform for Al-Ihsan Foundation, a charitable organization. Built with Angular 21, Node.js 24, and a MySQL database.',
     url: 'https://link.alihsan.org.au/',
     tags: ['Nonprofit'],
     logo: alIhsanLogo,
