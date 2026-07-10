@@ -111,7 +111,7 @@ export const projects: Project[] = [
     name: 'GridsPOS',
     description:
       'A business management system built from scratch, combining CRM, point-of-sale, and ERP functionality — React frontend with a Node.js and SQL Server backend.',
-    url: null,
+    url: 'https://web.gridsweb.com:9006/login',
     tags: ['Business Software'],
   },
   {
