@@ -1,6 +1,7 @@
 import alIhsanLogo from './assets/projects/al-ihsan-logo.png'
 import iraqicinemaLogo from './assets/projects/iraqi-logo-white.png'
 import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
+import awqafLogo from './assets/projects/awqaf-logo.svg'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -134,5 +135,6 @@ export const projects: Project[] = [
       'A platform for Awqaf Rashaya. Role: frontend built with React and OpenAPI-generated clients; backend built by a separate team in Java with PostgreSQL.',
     url: 'https://awqaf-qa.onrender.com/',
     tags: ['Frontend'],
+    logo: awqafLogo,
   },
 ]
