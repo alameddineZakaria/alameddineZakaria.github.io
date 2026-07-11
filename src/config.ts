@@ -4,6 +4,7 @@ import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
 import awqafLogo from './assets/projects/awqaf-logo.svg'
 import gridsposLogo from './assets/projects/gridspos-logo.png'
 import webmmLogo from './assets/projects/webmm-logo.svg'
+import stockStoreLogo from './assets/projects/stock-store-logo.png'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -85,6 +86,7 @@ export const projects: Project[] = [
       'An inventory and stock management application. Built as fullstack developer with React, Node.js, and a MySQL database.',
     url: 'http://34.165.71.158/dashboard',
     tags: ['E-commerce', 'fullstack', 'reactjs', 'nodejs', 'mysql'],
+    logo: stockStoreLogo,
   },
   {
     name: 'GridsPOS',
