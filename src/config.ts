@@ -84,7 +84,7 @@ export const projects: Project[] = [
     name: 'Stock Store',
     description:
       'An inventory and stock management application. Built as fullstack developer with React, Node.js, and a MySQL database.',
-    url: 'http://34.165.71.158/dashboard',
+    url: 'https://cloudposs.app',
     tags: ['E-commerce', 'fullstack', 'reactjs', 'nodejs', 'mysql'],
     logo: stockStoreLogo,
   },
