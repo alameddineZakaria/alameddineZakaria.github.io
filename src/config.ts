@@ -81,6 +81,14 @@ export const projects: Project[] = [
     logo: alIhsanLogo,
   },
   {
+    name: 'Messaging Manager',
+    description:
+      'A multi-tenant messaging platform used by major telecom operators — including Ooredoo, Vodafone, Zain KSA, and Zain Kuwait — to launch bulk SMS campaigns in a single click. My role: converting the Figma designs into a fully interactive, data-heavy interface with Angular 21 and PrimeNG — covering everything from campaign setup to reporting dashboards — and integrating it end-to-end with the backend API.',
+    url: 'https://zainksa.stg.dev1team.net/webmm2/login',
+    tags: ['frontend', 'angular'],
+    logo: webmmLogo,
+  },
+  {
     name: 'Stock Store',
     description:
       'An inventory and stock management application. Built as fullstack developer with React, Node.js, and a MySQL database.',
@@ -119,13 +127,5 @@ export const projects: Project[] = [
     url: 'https://awqaf-qa.onrender.com/',
     tags: ['Frontend', 'reactjs', 'tailwind'],
     logo: awqafLogo,
-  },
-  {
-    name: 'Messaging Manager',
-    description:
-      'A multi-tenant messaging platform used by major telecom operators — including Ooredoo, Vodafone, Zain KSA, and Zain Kuwait — to launch bulk SMS campaigns in a single click. My role: converting the Figma designs into a fully interactive, data-heavy interface with Angular 21 and PrimeNG — covering everything from campaign setup to reporting dashboards — and integrating it end-to-end with the backend API.',
-    url: 'https://zainksa.stg.dev1team.net/webmm2/login',
-    tags: ['frontend', 'angular'],
-    logo: webmmLogo,
   },
 ]
