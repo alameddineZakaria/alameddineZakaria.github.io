@@ -75,9 +75,9 @@ export const projects: Project[] = [
   {
     name: 'Al-Ihsan Foundation',
     description:
-      'A platform for Al-Ihsan Foundation, a charitable organization. Built end-to-end as fullstack developer — Angular 21, Node.js 24, and a MySQL database — with a self-built CI/CD pipeline that auto-deploys to the AWS Ubuntu server via SSH on every push to production.',
+      'A platform for Al-Ihsan Foundation, a charitable organization. Built end-to-end as fullstack developer — Angular 21, Node.js 24, and a MySQL database — with a self-built CI/CD pipeline that auto-deploys to the AWS Ubuntu server via SSH on every push to production. Also integrated AI-powered search and AI-generated reports.',
     url: 'https://link.alihsan.org.au/',
-    tags: ['Nonprofit', 'CI/CD', 'fullstack', 'angular', 'nodejs', 'mysql'],
+    tags: ['Nonprofit', 'CI/CD', 'fullstack', 'angular', 'nodejs', 'mysql', 'AI'],
     logo: alIhsanLogo,
   },
   {
