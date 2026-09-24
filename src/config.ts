@@ -4,7 +4,7 @@ import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
 import awqafLogo from './assets/projects/awqaf-logo.svg'
 import gridsposLogo from './assets/projects/gridspos-logo.png'
 import webmmLogo from './assets/projects/webmm-logo.svg'
-import cloudSolutionLogo from './assets/projects/cloudsolution-logo-dark.png'
+import cloudSolutionLogo from './assets/projects/cloudsolution-logo-light.png'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
