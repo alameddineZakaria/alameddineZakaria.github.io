@@ -4,7 +4,7 @@ import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
 import awqafLogo from './assets/projects/awqaf-logo.svg'
 import gridsposLogo from './assets/projects/gridspos-logo.png'
 import webmmLogo from './assets/projects/webmm-logo.svg'
-import stockStoreLogo from './assets/projects/stock-store-logo.png'
+import cloudSolutionLogo from './assets/projects/cloudsolution-logo-dark.png'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -89,12 +89,12 @@ export const projects: Project[] = [
     logo: webmmLogo,
   },
   {
-    name: 'Stock Store',
+    name: 'CloudSolution',
     description:
       'An inventory and stock management application. Built as fullstack developer with React, Node.js, and a MySQL database.',
     url: 'https://cloudposs.app',
     tags: ['E-commerce', 'fullstack', 'reactjs', 'nodejs', 'mysql'],
-    logo: stockStoreLogo,
+    logo: cloudSolutionLogo,
   },
   {
     name: 'GridsPOS',
