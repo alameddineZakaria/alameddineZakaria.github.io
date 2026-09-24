@@ -1,10 +1,10 @@
-import alIhsanLogo from './assets/projects/al-ihsan-logo.png'
-import iraqicinemaLogo from './assets/projects/iraqi-logo-white.png'
 import alEtihadLogo from './assets/projects/al-etihad-logo.svg'
+import alIhsanLogo from './assets/projects/al-ihsan-logo.png'
 import awqafLogo from './assets/projects/awqaf-logo.svg'
-import gridsposLogo from './assets/projects/gridspos-logo.png'
-import webmmLogo from './assets/projects/webmm-logo.svg'
 import cloudSolutionLogo from './assets/projects/cloudsolution-logo-light.png'
+import gridsposLogo from './assets/projects/gridspos-logo.png'
+import iraqicinemaLogo from './assets/projects/iraqi-logo-white.png'
+import webmmLogo from './assets/projects/webmm-logo.svg'
 
 export const siteConfig = {
   name: 'Zakaria Alameddine',
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     name: 'CloudSolution',
     description:
       'An inventory and stock management application. Built as fullstack developer with React, Node.js, and a MySQL database.',
-    url: 'https://cloudposs.app',
+    url: 'https://demo-retail.cloudposs.app/',
     tags: ['E-commerce', 'fullstack', 'reactjs', 'nodejs', 'mysql'],
     logo: cloudSolutionLogo,
   },
